@@ -1,9 +1,9 @@
 import JsonStore from "./json-store.js";
 
-const stevieStore = new JsonStore("./models/stevie-store.json", { employee: {} });
+const stevieStore = new JsonStore("./models/stevie-store.json", { employees: {} });
 
 export function getAppInfo() {
-  return stevieStore.db.data.employee;
+  return stevieStore.db.data.employees;
 }
 
 
