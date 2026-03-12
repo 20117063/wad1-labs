@@ -9,6 +9,8 @@ import about from './controllers/about.js';
 import logger from "./utils/logger.js";
 import playlist from './controllers/playlist.js';
 
+router.get('/playlist/:id/deletesong/:songid', playlist.deleteSong);
+router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
 
 router.get('/', start.createView);
 router.get('/dashboard', dashboard.createView);
