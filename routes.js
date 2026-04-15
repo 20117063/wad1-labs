@@ -10,6 +10,7 @@ import about from './controllers/about.js';
 import logger from "./utils/logger.js";
 import playlist from './controllers/playlist.js';
 
+router.get('/sortData', dashboard.createView);
 router.get('/playlist/:id/deletesong/:songid', playlist.deleteSong);
 router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
 router.get('/stats', stats.createView);
@@ -17,7 +18,7 @@ router.get('/', start.createView);
 router.get('/dashboard', dashboard.createView);
 router.get('/about', about.createView);
 router.get('/playlist/:id', playlist.createView);
-
+router.get('/searchCategory', dashboard.createView);
 router.get('/error', (request, response) => response.status(404).end('Page not found.'));
 router.post('/playlist/:id/addsong', playlist.addSong);
 router.post('/dashboard/addplaylist', dashboard.addPlaylist);
