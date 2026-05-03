@@ -1,56 +1,28 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 4,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "a2699405-f920-40e4-b62b-dd1c0465c49f",
-          "title": "fdsfsdf",
-          "artist": "dsfsdfsdf"
-        }
-      ]
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "cc3b8bb4-f8fb-4ad5-b9bd-74f9acc9ff8a",
+      "title": "Merge playlist",
+      "rating": 5,
+      "songs": [],
+      "date": "2026-05-03T23:17:00.444Z"
     },
     {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
-        }
-      ]
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "1c6e5634-3b77-4ac0-92dc-63f1af3d1390",
+      "title": "Homer playlist",
+      "rating": 5,
+      "songs": [],
+      "date": "2026-05-03T23:17:22.533Z"
     },
     {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
-      "rating": 1,
-      "songs": []
-    },
-    {
-      "id": "3d890c25-53ec-4460-8014-955c2ed280f0",
-      "title": "Beethoven more",
-      "rating": 2,
-      "date": "2026-04-15T13:12:26.919Z",
-      "songs": []
+      "userid": "cc99616d-60c5-43b3-b1ae-5d13c45bdb1f",
+      "id": "f9a284f9-3701-45ec-b028-eccfbe7a1815",
+      "title": "nikas playlist",
+      "rating": 5,
+      "songs": [],
+      "date": "2026-05-03T23:19:44.105Z"
     }
   ]
 }

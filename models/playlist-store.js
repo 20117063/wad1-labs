@@ -3,6 +3,7 @@
 import logger from '../utils/logger.js';
 import JsonStore from './json-store.js';
 
+
 const playlistStore = {
 
   store: new JsonStore('./models/playlist-store.json', { playlistCollection: [] }),
@@ -35,7 +36,17 @@ searchPlaylist(search) {
     return this.store.findBy(
       this.collection,
       (playlist => playlist.title.toLowerCase().includes(search.toLowerCase())))
-}
+},
+getUserPlaylists(userid) {
+  return this.store.findBy(this.collection, (playlist => playlist.userid === userid));
+},
+
+searchUserPlaylists(search, userid) {
+  return this.store.findBy(
+    this.collection,
+    (playlist => playlist.userid === userid && playlist.title.toLowerCase().includes(search.toLowerCase())))
+}, 
+
 
 
 
