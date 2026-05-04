@@ -17,12 +17,16 @@
       "date": "2026-05-03T23:17:22.533Z"
     },
     {
+      "id": "273827f2-dd41-43a7-ad6e-78b44097cae9",
       "userid": "cc99616d-60c5-43b3-b1ae-5d13c45bdb1f",
-      "id": "f9a284f9-3701-45ec-b028-eccfbe7a1815",
-      "title": "nikas playlist",
-      "rating": 5,
+      "title": "dasd",
+      "rating": 3,
       "songs": [],
-      "date": "2026-05-03T23:19:44.105Z"
+      "date": "2026-05-04T00:14:25.209Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/dmzpbtoyk/image/upload/v1777853665/zklbfbdefgnieyyfsip7.jpg",
+        "public_id": "zklbfbdefgnieyyfsip7"
+      }
     }
   ]
 }
