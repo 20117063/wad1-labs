@@ -20,6 +20,17 @@
       "email": "nika@simpson.com",
       "password": "secret",
       "id": "cc99616d-60c5-43b3-b1ae-5d13c45bdb1f"
+    },
+    {
+      "firstName": "Nika",
+      "lastName": "Lala",
+      "email": "nika2@simpson.com",
+      "password": "secret",
+      "id": "34f0f0fe-9d21-44a1-bd64-0c2cf3121760",
+      "picture": {
+        "url": "http://res.cloudinary.com/dmzpbtoyk/image/upload/v1777855163/zkqpplzcfe3qxmhbquii.jpg",
+        "public_id": "zkqpplzcfe3qxmhbquii"
+      }
     }
   ]
 }

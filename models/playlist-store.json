@@ -27,6 +27,18 @@
         "url": "http://res.cloudinary.com/dmzpbtoyk/image/upload/v1777853665/zklbfbdefgnieyyfsip7.jpg",
         "public_id": "zklbfbdefgnieyyfsip7"
       }
+    },
+    {
+      "id": "a13ada28-a009-4e30-8c84-f4e3b2600405",
+      "userid": "34f0f0fe-9d21-44a1-bd64-0c2cf3121760",
+      "title": "Lalas playlist",
+      "rating": 5,
+      "songs": [],
+      "date": "2026-05-04T00:45:32.597Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/dmzpbtoyk/image/upload/v1777855532/udnrsk0l1xcthmwanoi3.jpg",
+        "public_id": "udnrsk0l1xcthmwanoi3"
+      }
     }
   ]
 }
